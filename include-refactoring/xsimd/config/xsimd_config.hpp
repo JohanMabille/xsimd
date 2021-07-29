@@ -247,6 +247,9 @@
 #define XSIMD_WITH_SSE 1
 #endif
 
+#if XSIMD_WITH_SSE
+#pragma message("XSIMD_WITH_SSE  1")
+#endif
 #endif
 
 #endif
